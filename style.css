@@ -1,0 +1,97 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 79, 79);
+}
+
+.container {
+    text-align: center;
+    min-height: 300px;
+    width: 600px;
+    border-radius: 15px;
+    background-color: rgb(187, 185, 184);
+    color: black;
+
+}
+
+.input-field {
+    width: 100%;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field input {
+    width: 340px;
+
+    outline-color: rgb(255, 153, 0);
+    padding: 5px 10px;
+}
+
+li {
+    list-style: none;
+    height: 55px;
+}
+
+button {
+    background-color: rgb(241 172 83);
+    border: transparent;
+    color: white;
+    /* margin: 5px; */
+    height: 25px;
+    width: 85px;
+    cursor: pointer;
+
+}
+.add-btn{
+    border: 3px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editbtn:hover{
+    color: gray;
+}
+.deletebtn:hover{
+    color: gray;
+}
+
+/* access li */
+.taskhere :nth-child(n) {
+    gap: 5px;
+    margin: 5px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taskhere input{
+    padding: 5px;
+}
+
+.tasks {
+    display: flex;
+    gap: 5px;
+}
+
+.tasks img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+.valuehere {
+    width: 200px;
+}
